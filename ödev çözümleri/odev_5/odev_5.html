@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./odev_5.css">
+    <title>Document</title>
+</head>
+<body>
+   <div id="dis" class="container">
+    <div id="ic" class="container">
+        <div id="fullic" class="container">
+       <div class="row">
+           <form>
+               <div class="first_text">
+                   <label for="name">Name:</label>
+                   <input type="text" name="name" id="name" placeholder="Write Your Name...">
+               </div>
+              
+                <div class="first_text">
+                    <label for="password">Password:</label>
+                    <input type="text" name="password" id="password" placeholder="Your Password...">
+                </div>
+
+                <div class="first_text">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber">
+                </div>
+                
+                <div class="first_text items">
+                    <div class="first_text items left" id="left_it">
+                        <p class="text">Gender:</p>
+                    </div>
+                    <div class="first_text items right" id="right_it">
+                        <label for="male">Male</label>
+                    <input type="radio" name="male" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="female" id="female">
+                    <label for="other">Other</label>
+                    <input type="radio" name="other" id="other">
+                    </div>
+                    
+                    
+                </div>
+               
+                <div class="first_text select">
+                    <label for="language">Language:</label>
+                    <select name="language" id="language" class="select1">
+                        <option value="0">Select Language</option>
+                        <option value="1">English</option>
+                        <option value="2">Turkish</option>
+                        <option value="3">French</option>
+                        <option value="4">Deutsch</option>
+                        <option value="5">Italian</option>
+                        <option value="6">Spanish</option>
+                        <option value="7">Portuguese</option>
+                    </select>
+                </div>
+                <div class="first_text">
+                    <label for="zipCode">Zip Code:</label>
+                    <input type="text" name="zipCode" id="zipCode">
+                </div>
+                <div class="first_text">
+                    <label for="about">About:</label>
+                    <input type="text" name="about" id="about" placeholder="About">
+                </div>
+                <div class="first_text button">
+                    <button type="submit" class="button-bg">Register</button>
+                </div>
+               
+               
+           </form>
+       </div>
+   </div>
+   </div>
+   </div>
+</body>
+</html>

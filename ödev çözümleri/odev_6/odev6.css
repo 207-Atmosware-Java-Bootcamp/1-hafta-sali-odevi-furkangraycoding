@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(66, 145, 219)
+}
+
+.container{
+    margin: 25%;
+}
+#dis{
+   
+    background-color: #fff !important;
+    border-radius: 5%;
+    height: 50vh;
+    width: 40%;
+    margin-top: 20px;
+}
+
+
+.row{
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+    color: rgb(20, 12, 12);
+    width: 100%;
+
+    
+}
+.form{
+    padding: 20px;
+}
+.first_text{
+    border-radius: 4px;
+    background-color:rgb(195, 229, 245);
+    display: inline-flex;
+    justify-content: space-evenly; /* x ekseni hizalama */
+    padding: 10px;
+    text-align: left;
+    align-items: left; /*dikleme hizala 3 parca boler*/
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 90%;
+}
+.first_text input{
+    text-align: left;
+    align-items: left; 
+    width: 70%;
+    color: black;
+    padding: 4px;
+}
+
+
+
+.button-bg{
+    text-align: center;
+    align-items: center; 
+    width: 25%;
+    color: #fff;
+    border-radius: 10%;
+
+    background-color: #6cacf7;
+}

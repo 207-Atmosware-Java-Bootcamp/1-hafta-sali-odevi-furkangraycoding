@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white
+}
+#dis{
+   
+    background-color: #a22b56 !important;
+    border: 1px solid #e5e9f0;
+    border-radius: 2px;
+    height: 50vh;
+    width: 40%;
+    margin-top: 20px;
+}
+#ic{
+   
+    background-color:#a22b56!important;
+    border-radius: 2px;
+    height: 42vh;
+    width: 86%;
+    background-color: #354259;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+
+
+
+}
+#fullic{
+    margin-top: 10px;
+    border: 5px solid #74203e ;
+    background-color: #74203e !important;
+    
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 20px;
+    color: #fff;
+    width: 100%;
+    
+}
+.first_text{
+    display: flex;
+    justify-content: space-between; /* x ekseni hizalama */
+    padding-right: 40px;
+    text-align: left;
+    align-items: center; /*dikleme hizala 3 parca boler*/
+    margin-bottom: 10px;
+}
+.first_text input{
+
+    color: black;
+    padding: 2px;
+}
+
+#right_it {
+    margin-left: 230px;
+    
+}
+
+
+.right label{
+    margin: 4px;
+    
+}
+
+#left_it {
+  text-align: left;
+  width: 100%;
+}
+
+.select .select1 {
+    padding-right: 50px;
+    text-align: left;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button-bg{
+    padding: 5px 70px;
+    background-color: #e3e5e7;
+}
+.button-bg:hover{
+    padding: 5px 70px;
+    background-color: #6cacf7;
+}
